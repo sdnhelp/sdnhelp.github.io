@@ -1,46 +1,37 @@
-<?xml version="1.0"?>
-<opml version="2.0">
-  <head>
-    <ownerEmail>zeeno@163.com</ownerEmail>
-  </head>
-  <body>
-    <outline text="&amp;lt;SDN网关：外线处理手册&amp;gt;" >
-      <outline text="故障现象" >
-        <outline text="PON灯闪" >
-          <outline text="确认电源是否适配" />
-          <outline text="确认光功率达标" />
-          <outline text="确认loid正确输入" />
-          <outline text="确认OLT侧数据正确配置" /></outline>
-        <outline text="无法上公网" >
-          <outline text="确认网关本地页面有ad帐号" />
-          <outline text="确认用户帐号是否异常" >
-            <outline text="欠费停机" />
-            <outline text="3A进程吊死" /></outline>
-          <outline text="确认拨号失败原因" >
-            <outline text="认证超时" _note="上联olt上网未正确配置上网通道VLAN，处理建议：报OLT协查" />
-            <outline text="认证失败" _note="3A系统无用户帐号信息，处理建议：报3A协查" /></outline>
-        </outline>
-        <outline text="IPTV无法观看" >
-          <outline text="普遍IPTV无法观看" >
-            <outline text="确认是否拿到B平面地址" />
-            <outline text="确认是否开启DHCP+功能" />
-            <outline text="确认是否已知不支持SDN网关的型号" />
-            <outline text="最终处理建议：向开发组报告设备型号，更换新型号普通IPTV机顶盒" /></outline>
-          <outline text="4KIPTV无法观看" >
-            <outline text="确认网络地址获取正确" />
-            <outline text="确认上公网功能正常" /></outline>
-        </outline>
-        <outline text="IPTV卡顿" />
-        <outline text="上网ping值抖动" >
-          <outline text="确认使用正确电源适配器" />
-          <outline text="确认入户光纤功率正常且无抖动" />
-          <outline text="" /></outline>
-      </outline>
-      <outline text="问题收集" >
-        <outline text="本地界面增加wifi配置" />
-        <outline text="本地界面增加公网地址显示/拨号结果" />
-        <outline text="本地界面增加设备连接情况" />
-        <outline text="本地界面增加端口流量显示" /></outline>
-    </outline>
-  </body>
-</opml>
+<SDN网关：外线处理手册>
+
+- 故障现象
+  - PON灯闪
+    - 确认电源是否适配
+    - 确认光功率达标
+    - 确认loid正确输入
+    - 确认OLT侧数据正确配置
+  - 无法上公网
+    - 确认网关本地页面有ad帐号
+    - 确认用户帐号是否异常
+      - 欠费停机
+      - 3A进程吊死
+    - 确认拨号失败原因
+      - 认证超时
+        "上联olt上网未正确配置上网通道VLAN，处理建议：报OLT协查"
+      - 认证失败
+        "3A系统无用户帐号信息，处理建议：报3A协查"
+  - IPTV无法观看
+    - 普遍IPTV无法观看
+      - 确认是否拿到B平面地址
+      - 确认是否开启DHCP+功能
+      - 确认是否已知不支持SDN网关的型号
+      - 最终处理建议：向开发组报告设备型号，更换新型号普通IPTV机顶盒
+    - 4KIPTV无法观看
+      - 确认网络地址获取正确
+      - 确认上公网功能正常
+  - IPTV卡顿
+  - 上网ping值抖动
+    - 确认使用正确电源适配器
+    - 确认入户光纤功率正常且无抖动
+    - 
+- 问题收集
+  - 本地界面增加wifi配置
+  - 本地界面增加公网地址显示/拨号结果
+  - 本地界面增加设备连接情况
+  - 本地界面增加端口流量显示
