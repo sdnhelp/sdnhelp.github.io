@@ -19,9 +19,9 @@
 	<div class="row">
 		<div class="col-md-12"><br><br>
 			<h5>
-				<a href="../help.html">返回</a> 进入注册页面
+				<a href="../help.html">返回</a> %s
 			</h5><br><br>
-			打开网关包装后，接入光纤
+			%s
 		</div>
 	</div>
   </div>
